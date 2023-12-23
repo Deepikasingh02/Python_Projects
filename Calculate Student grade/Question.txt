@@ -1,0 +1,25 @@
+Define a class Student with attribute roll number(roll) , student name(name)
+and a list which store the marks scored by the student (marks_list).
+
+
+Provide following method to the calss:
+1.calculate_percentage():The method will calculate the percentage of the student on the basis of the marks
+obtained by him/her and return the percenatge value.
+2.find_grade(): This method will finde the grade of the student on the basis of the percentage
+acquired by the student. The method return the grade of the student.
+
+The criteria of the grade--
+1. if percentage of marks is greater than or equal to 80,grade "A".
+2. If percentage of marks is greater than or equal to 60 but less than 80, grade "B".
+3. If percentage of marks is greater than or equal to 40 but less than 60, grade "C".
+
+Sample input:
+123
+Rahul
+3
+80
+70
+80
+Output :
+76
+B
