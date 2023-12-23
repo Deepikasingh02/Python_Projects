@@ -1,0 +1,54 @@
+create a class 'Painting' with below attributes:
+paintingid : (int type)
+painterName : (string type)
+paintingprice : (int type )
+paintingtype  : (string type )
+
+create a constructor (__init__ method ) which takes all above attribute
+in the same sequence.
+Method  will set the value pass as argumanet to the attribute of the painting attribute
+created.
+
+Create a class 'ShowRoom' with attribute as list of painting obtained from main function.
+
+paintingList : of type List of painting objects
+
+Define two function inside ShowRoom Class
+
+1). getTotalPaintingPrice : it take a string representing the painting type as
+argument and return the total painting price of the painting of the given type from
+the paintingList of ShoewRoom. if no painting within give type is present in the
+list then the method returns " No painting found"
+
+2). getPainterMaxCountofPainting: it findes the name of thr painter from the paintingList
+of the ShowwRoomwho has tha highest count of the Paintings. If more then one painter has the highest
+count of painting, method return the name of the painter whose name come forst as per alphabetical
+order(A-Z).
+
+SAMPLE INPUT :
+5
+101
+Raman
+50000
+Portrait
+102
+Kamala
+30000
+Portrait
+103
+Raman
+25600
+Modern
+1014
+Preeti
+31000
+landscape
+105
+Sumiran
+50000
+Modern
+Modern
+
+OUTPUT:
+75600
+Raman
