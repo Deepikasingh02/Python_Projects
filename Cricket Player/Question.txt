@@ -1,0 +1,56 @@
+
+Create a class 'CricketPlayer' with below attributes.
+cplayername : (string type)
+cplayerCountry : (set of String)
+cplayerAge : (int type )
+cpCountryFrom : (string type)
+Create a constructor which takes all the above value in same sequence .
+
+Create another class 'Solution' with attribute as setv off player
+obtained from main function
+
+define two function inside 'Solution' class
+1). countplayer: it takes a string represents 'countryname' as argument,
+and return tha total count of the player belonging to that country .
+
+2). getPlayerPlayedForMaxCountry : it find the name of player from player list
+of Solution class who has played against highest number of the countries.
+
+SAMPLE INPUT:
+4
+Alex
+3
+Japan
+Nepal
+india
+42
+India
+Max
+4
+Japan
+Denmark
+Austrlia
+pakistan
+32
+Nepal
+Ram
+3
+china
+Indonesia
+pakistan
+25
+India
+Sonal
+5
+Japan
+China
+India
+pakistan
+Nepal
+58
+Afganistan
+India
+
+OUTPUT:
+2
+Sonal
